@@ -22,7 +22,7 @@ sudo pacman -S hyprland hyprpaper kitty wofi waybar
 
 echo "installing cli tools"
 
-sudo pacman -S btop fastfetch fish
+sudo pacman -S btop fastfetch fish ttf-jetbrains-mono-nerd
 
 echo "Setting fish as defualt terminal" 
 
