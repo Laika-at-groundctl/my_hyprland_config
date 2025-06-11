@@ -1,0 +1,35 @@
+ window {
+margin: 5px;
+border: 2px #f5bde6;
+background-color: #ea76cb;
+}
+
+#input {
+margin: 5px;
+border: 2px #6e738d;
+background-color: #6e738d;
+}
+
+#inner-box {
+margin: 5px;
+border: 2px #24273a;
+background-color: #24273a;
+}
+
+#outer-box {
+margin: 5px;
+border: 2px #24273a;
+background-color: #24273a;
+}
+
+// #scroll {
+// margin: 5px;
+// border: 2px solid orange;
+// background-color: orange;
+// }
+
+#text {
+margin: 5px;
+// border: 2px solid cyan;
+// background-color: cyan;
+} 
