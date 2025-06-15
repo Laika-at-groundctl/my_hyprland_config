@@ -12,19 +12,30 @@ sudo pacman -S figlet lolcat git
 
 figlet "Welcome to my hyprland install script" | lolcat
 
+sleep 5
+
 echo "cloning the git repo"
+
+sleep 5
 
 git clone https://github.com/codepirate69/my_hyprland_config.git ~/.config
 
 echo "installing the basics"
 
+sleep 5
+
 sudo pacman -S hyprland hyprpaper kitty wofi waybar
 
+
 echo "installing cli tools"
+
+sleep 5
 
 sudo pacman -S btop fastfetch fish ttf-jetbrains-mono-nerd ttf-jetbrains-mono
 
 echo "Setting fish as defualt terminal" 
+
+sleep 5
 
 chsh -s /bin/fish
 
