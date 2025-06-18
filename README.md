@@ -6,14 +6,16 @@ I have not altered any of the orignal configs notes and messages and have tried 
 
 ## notes
 
-1. this is just for a bit of fun. I'll try update when I can/have made major changes but in the meantime just enjoy what you have
-2. this config also assumes you use arch or a arch distrobution. I have not and will not build it specifically for other distros but everything (minus the install script) should work regardless
+1. this is just for a bit of fun. I'm not to serious about updating it but feel free to request changes
+2. the install script assumes you use arch or a arch distrobution. I have not built it for other distros but everything (minus the install script) should work regardless
 3. this config uses the JetBrains Mono and JetBrains Mono nerd font because it is what I like. it should be relatively easy to swap out if you feel like it.
 
 ## screenshots
 ![image](https://github.com/user-attachments/assets/7bf8c8fb-ad37-4a54-8afd-184eadf8866a) 
 
-## Final notes
-Feel free to edit, manipulated, repurpose and reupload this setup as you please. I do not need credit but feel free to credit me if you feel you want.
-I'm very new to the whole show off to the internet thing and ultimitley this is a passion project that I will work on in my free time. If you want a certian feature, change or optimisation feel free to request it.
-And finally I am a student. I will not be available 24/7 to answer questions and tweak issues but I will try my hardest to get back to you asap.
+## Install instructions
+ 1. download the install script
+ 2. run command chmod +x Path/to/script/install.sh
+ 3. run the install script
+ 4. copy all the files from the Hyprland_Rice folder to ~/.config
+ 5. all setup
