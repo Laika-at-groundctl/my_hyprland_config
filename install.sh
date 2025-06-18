@@ -18,7 +18,9 @@ echo "cloning the git repo"
 
 sleep 5
 
-git clone https://github.com/codepirate69/my_hyprland_config.git ~/.config
+mkdir ~/Hyprland_Rice
+
+git clone https://github.com/codepirate69/my_hyprland_config.git 
 
 echo "installing the basics"
 
