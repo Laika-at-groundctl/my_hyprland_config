@@ -10,7 +10,7 @@ I have not altered any of the orignal configs notes and messages and have tried 
 2. the install script assumes you use arch or a arch distrobution. I have not built it for other distros but everything (minus the install script) should work regardless
 3. this config uses the JetBrains Mono and JetBrains Mono nerd font because it is what I like. it should be relatively easy to swap out if you feel like it.
 
-## screenshots
+## screenshots and examples
 ![image](https://github.com/user-attachments/assets/7bf8c8fb-ad37-4a54-8afd-184eadf8866a) 
 
 ## Install instructions
