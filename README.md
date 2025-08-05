@@ -11,7 +11,8 @@ I have not altered any of the orignal configs notes and messages and have tried 
 3. this config uses the JetBrains Mono and JetBrains Mono nerd font because it is what I like. it should be relatively easy to swap out if you feel like it.
 
 ## screenshots and examples
-![image](https://github.com/user-attachments/assets/7bf8c8fb-ad37-4a54-8afd-184eadf8866a) 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b837158-eb2d-4fd5-a0af-189dd6073159" />
+
 
 ## Install instructions
  1. download the install script
