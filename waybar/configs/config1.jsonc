@@ -10,6 +10,8 @@
 	],
 
 	"modules-right": [
+		"custom/arrow11",
+		"mpris",
 		"custom/arrow9",
 		"pulseaudio",
 		"custom/arrow8",
@@ -55,6 +57,20 @@
 		"tooltip": false
 	},
 
+	"mpris": {
+		"format": "{player_icon} {artist} {title}",
+		"format-paused": "{status_icon} <i>{artist} {title}</i>",
+		"player-icons": {
+			"default": "▶",
+			"mpv": "🎵"
+		},
+		"status-icons": {
+			"paused": "⏸"
+		},
+		"album-len": 0,
+		"ignored-players": ["firefox"]
+	},
+
 	"clock#time": {
 		"interval": 10,
 		"format": "{:%H:%M}",
@@ -98,7 +114,7 @@
 
 	"network": {
 		"interval": 5,
-		"format-wifi": " {essid} ({signalStrength}%)",
+		"format-wifi": "  {essid} ({signalStrength}%)",
 		"format-ethernet": "󰈀 {ifname}",
 		"format-disconnected": "No connection",
 		//"format-alt": " {ipaddr}/{cidr}",
@@ -128,13 +144,13 @@
 		"format-bluetooth": "{icon} {volume}%",
 		"format-muted": "",
 		"format-icons": {
-			"headphone": "",
-			"hands-free": "",
-			"headset": "",
-			"phone": "",
-			"portable": "",
-			"car": "",
-			"default": ["", ""]
+			"headphone": " ",
+			"hands-free": "󱡏 ",
+			"headset": "󰋎 ",
+			"phone": " ",
+			"portable": " ",
+			"car": " ",
+			"default": [" ", " "]
 		},
 		"scroll-step": 1,
 		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
@@ -201,6 +217,11 @@
 	},
 
 	"custom/arrow9": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow11": {
 		"format": "",
 		"tooltip": false
 	},

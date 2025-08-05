@@ -28,7 +28,7 @@
 @define-color braqua	#eba0ac;
 @define-color white	#ebdbb2;
 @define-color bg2	#6c7086;
-
+@define-color lavender  #b7bdf8;
 
 @define-color warning 	@bryellow;
 @define-color critical	@red;
@@ -45,6 +45,7 @@
 @define-color battery	@blue;
 @define-color date	@black;
 @define-color time	@white;
+@define-color mpris     @lavender;
 
 /* Reset all styles */
 * {
@@ -154,7 +155,10 @@
 	margin-right: 35pt;
 	margin-left: 35pt;
 }
-
+#mpris{
+	background: @mpris;
+	color: @black;
+}
 #pulseaudio {
 	background: @sound;
 	color: @black;
@@ -255,11 +259,17 @@
 #custom-arrow9 {
 	font-size: 11pt;
 	color: @sound;
-	background: transparent;
+	background: @mpris;
 }
 
 #custom-arrow10 {
 	font-size: 11pt;
 	color: @unfocused;
+	background: transparent;
+}
+
+#custom-arrow11 {
+	font-size: 11pt;
+	color: @mpris;
 	background: transparent;
 }
